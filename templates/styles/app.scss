@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    app.css
+\*------------------------------------*/
+/**
+ * Here we pull in some variables, include the inuit.css framework, then add our
+ * project-specific components afterwards. This file is solely for linking all stylesheets together.
+ * Use core.scss
+ */
+
+/* Inuit.css */
+@import "vars";
+@import "../bower_components/inuit.css/inuit";
+
+/* e7 base */
+@import "base/core";
+@import "base/footer";
+@import "base/header";
+@import "base/nav";
+@import "base/type";
+
+/**
+ * extend/
+ * All extentions of inuit objects live in here as well as new abstracted components
+ *
+ * @import "extend/media";
+ */
+@import "extend/forms";
+
+/**
+ * widgets/
+ * All custom e7 objects live in here
+ *
+ * @import "objects/modal";
+ */
+@import "objects/browsehappy";
+
+/**
+ * shame.css
+ * http://csswizardry.com/2013/04/shame-css/
+ */
+@import "base/shame";

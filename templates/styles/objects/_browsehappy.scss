@@ -1,0 +1,17 @@
+.browsehappy {
+  font-size: 12px;
+  background: #fcf8e3;
+  color: #c09853;
+  border-bottom: 1px solid #faebcc;
+  margin: 0;
+  padding: 0.75em 1em;
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
